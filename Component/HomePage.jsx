@@ -5,8 +5,8 @@ return(
     <>
     <div className="mainbody">
         <section className="section1">
-            <img src="/sunflowers.jpg" alt="sunflowers" className="wallpaper-sunflower"/>
             <section className="textwrapping">
+                <div className="wrap-image">
                 <div className="wrap-div1">
                     <div className="videocontainer">
                         <Link to="/video1" className="link-style">
@@ -18,7 +18,7 @@ return(
                         <h5>PRESS RELEASE</h5>
                         <h4>Sub-Regional plans to Mitigrate the Effect of Climate Change before 2030</h4></Link>
                     </div>
-                </div>
+                </div></div>
 
                 <div className="wrap-div2">
                     <div className="action-container">

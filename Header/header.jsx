@@ -62,15 +62,19 @@ const Header=()=>{
                 <h1>UN<GoLaw/></h1>
                 <h4>environment programme</h4></Link>
             </div>
-            <h4 onClick={isToggleWe} className={isOpen2?'WeAre':null}>Who we are {isOpen2 ? <GoChevronUp /> : <GoChevronDown />}</h4>
+            <h4 onClick={isToggleWe} className={`another 
+            ${isOpen2 ? 'WeAre' : ''}`}
+            >Who we are {isOpen2 ? <GoChevronUp /> : <GoChevronDown />}</h4>
 
-            <h4 onClick={isToggleWhere} className={isOpen3?'WeAre':null}>Where we work{isOpen3?<GoChevronUp style={{color:'black'}}/>:<GoChevronDown />}</h4>
+            <h4 onClick={isToggleWhere} className={`another 
+            ${isOpen3 ? 'WeAre' : ''}`}>Where we work{isOpen3?<GoChevronUp style={{color:'black'}}/>:<GoChevronDown />}</h4>
 
-            <h4 onClick={isToggleWhat} className={isOpen4?'WeAre':null}>What we do{isOpen4?<GoChevronUp style={{color:'black'}}/>:<GoChevronDown />}</h4>
+            <h4 onClick={isToggleWhat} className={`another 
+            ${isOpen4 ? 'WeAre' : ''}`}>What we do{isOpen4?<GoChevronUp style={{color:'black'}}/>:<GoChevronDown />}</h4>
 
-            <h4><Link to='/publication' className="link-style1">Publications & data</Link></h4>
+            <h4><Link to='/publication' style={{color:'rgb(83, 83, 83)', textDecoration:'none'}} className="another">Publications & data</Link></h4>
 
-            <h5><Link to='/our-target'><GoGoal style={{color:'black', fontSize:'4rem'}}/></Link></h5>
+            <h5><Link to='/our-target'><GoGoal style={{color:'rgb(83, 83, 83)', fontSize:'4rem'}} className="style-Goal"/></Link></h5>
          </header>
          
          <div className="floatingOption1" style={{ opacity: isOpen2?1:0, transition: 'opacity 0.5s ease-in-out' }}>

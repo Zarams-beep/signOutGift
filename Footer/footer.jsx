@@ -87,9 +87,9 @@ const Footer =()=>{
                     </div>
                     <div className="secondPart">
                         <div className="sdg-logo2">
-                            <p className="smile-logo2">
-                            <CiFaceSmile style={{fontSize:'5rem'}}/></p>
-                            <p>SUSTAINABLE<br/>DEVELOPMENT<br/>GOALS</p>
+                            <p>
+                            <CiFaceSmile className="smile-logo2"/></p>
+                            <p className="sub-p">SUSTAINABLE<br/>DEVELOPMENT<br/>GOALS</p>
                         </div>
 
                         <button className="subBtn">
