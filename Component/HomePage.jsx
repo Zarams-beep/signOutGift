@@ -25,9 +25,10 @@ return(
                         
                         <div className="action-un">
                         <Link to='/action-heat' className="link-style">
-                        <h4 className="action">UN Secretary-General's Call to Action on Extreme Heat</h4></Link>
+                        <h4 className="action">UN Secretary General Call to Action on Extreme Heat</h4></Link>
                         <h6>LEARN MORE</h6></div>
                     </div>
+                    
                     <div className="emphasis-container">
                         <Link to="/solution-emphasis" className="link-style">
                             <div className="emphasis-un">

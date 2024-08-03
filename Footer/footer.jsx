@@ -87,7 +87,7 @@ const Footer =()=>{
                     </div>
                     <div className="secondPart">
                         <div className="sdg-logo2">
-                            <p>
+                            <p className="p-smile">
                             <CiFaceSmile className="smile-logo2"/></p>
                             <p className="sub-p">SUSTAINABLE<br/>DEVELOPMENT<br/>GOALS</p>
                         </div>
